@@ -1,0 +1,7 @@
+version: "3"
+services:
+  template:
+    build: .
+    ports:
+      - 9999:3000
+    restart: always
